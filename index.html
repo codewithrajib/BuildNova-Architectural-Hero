@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildNova</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="ftco-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">BuildNova.</a>
+      <button class="navbar-toggler" type="button" id="navbar-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="agent.html" class="nav-link">Our Team</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Expertise</a></li>
+          <li class="nav-item"><a href="project.html" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
+    <div class="overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="mb-4">Crafting 
+          <span class="word-rotator">
+            <span class="word-rotator-items">
+              <span>Sustainable</span>
+              <span>Innovative</span>
+              <span>Intelligent</span>
+              <span>Visionary</span>
+              <span>Sustainable</span>
+            </span>
+          </span> 
+          Future Spaces
+        </h1>
+        <p style="font-size: 18px;">Experience cutting-edge architectural design tailored to your vision. We blend aesthetics with functionality to create environments that inspire and endure.</p>
+        <div class="meta">
+          <a href="#" class="btn btn-primary">View Portfolio</a>
+          <a href="#" class="button-link" id="watchVideoBtn">
+            <div class="button-video">
+              <span class="fa fa-play"></span>
+            </div>
+            <span>Watch Showreel</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="video-container">
+        <!-- Using a placeholder internet video link -->
+        <iframe id="videoIframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
